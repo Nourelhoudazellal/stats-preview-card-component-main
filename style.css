@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap%22");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Inter";
+    font-family: "Lexend Deca";
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+.d0{
+    background-image: url(images/image-header-desktop.jpg);
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+.d0::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    mix-blend-mode: multiply;
+}
+
+.d1{
+    background-color:hsl(244, 38%, 16%);
+    text-align: center;
+    border-radius: 1px;
+    width: 350px;
+    height: 90pX;
+    margin-top: 40px;
+    padding-left: 17px;
+
+}
+
+.d2{
+    display: flex;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    color:#fff ;
+    font-size: 20px;
+    margin:30px;
+    text-align: start;
+}
+h3{
+    color:#fff ;
+    display: flex;
+    font-weight: 700;
+    font-size: 1rem;
+}
+p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6) ;
+    margin-top: 15px;
+    margin: 30px;
+    text-align: start;
+}
+
+.b1{
+    background-color:hsl(244, 38%, 16%);
+    border-radius: 5px;
+}
+span{
+color:  hsl(277, 64%, 61%);
+}
+.nom{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 19px;
+}
+.num{
+    margin-left: 50px;
+    margin-bottom: -25px;
+margin-top: 30px;
+text-align: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+}.d1{
+    background-color:hsl(244, 38%, 16%);
+    text-align: center;
+    border-radius: 5px;
+    width: 400px;
+}
+h1{
+    color:#fff ;
+}
+h3{
+    color:#fff ;
+    display: flex;
+p{
+    Font size: 15px;
+    color: hsla(0, 0%, 100%, 0.6) ;
+}
+ */
